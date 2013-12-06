@@ -1,24 +1,18 @@
 from  Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_OAEP
-import datetime
+import datetime, time
 import random
 
-global rsa
+
 
 def generate_RSA(keysize=1024):
-    global rsa
     rsa = RSA.generate(keysize)
     publicKey = rsa.publickey().exportKey()
     privateKey = rsa.exportKey()
     return publicKey, privateKey
 
 def createMessage(size=256):
-
-    #return [chr(random.randint(0,255)) for i in range(0,255)]
-    #return "Hello World Hello World Hello World Hello WorldHello World Hello World Hello World Hello World"
-    with open('./RSA.py', 'r') as content_file:
-        content = content_file.read()
-    return content
+    return ''.join(chr(random.randint(97,122)) for i in range(0,255))
 
 
 def encryptNDecryptLongMessage (pub_key,priv_key, msg=None):
@@ -36,8 +30,10 @@ def encryptNDecryptLongMessage (pub_key,priv_key, msg=None):
         decrypted_msg = decrypt(priv_key,encrypted_msg)
         #print encrypted_msg, decrypted_msg
     end_time = datetime.datetime.now()
-
     return stime, end_time
+
+    
+    
 def encrypt(key, msg):
 
     publicKey = RSA.importKey(key)
@@ -62,7 +58,32 @@ def hw4():
         #(s2_time,end2_time) = encryptNDecryptLongMessage(priv_key,pub_key)
         print size, end1_time - s1_time
 
+def timestamp(date):  
+    return time.mktime(date.timetuple())
 
-hw4()
+def diffKeySize100MsgTest():
+    keysize = [ i*1024 for i in range(1,10) ]
+    for size in keysize:
+      avg=0
+      for i in range(1,101):
+	(pub_key, priv_key) = generate_RSA(size)
+	(s1_time,end1_time) = encryptNDecryptLongMessage(pub_key,priv_key)
+	avg = (avg * (i -1) + (timestamp (end1_time) - timestamp (s1_time) ))/i
+	#(s2_time,end2_time) = encryptNDecryptLongMessage(priv_key,pub_key)
+      print size, avg
+    
+
+def diffKeySingleMessage():
+   keysize = [ 1024 for i in range(1,101) ]
+   for size in keysize:         
+	(pub_key, priv_key) = generate_RSA(size)
+	(s1_time,end1_time) = encryptNDecryptLongMessage(pub_key,priv_key)
+	#req_time =  (timestamp (end1_time) - timestamp (s1_time) )
+	#(s2_time,end2_time) = encryptNDecryptLongMessage(priv_key,pub_key)
+	print size, end1_time - s1_time
+   
+  
+#diffKeySingleMessage()
+diffKeySize100MsgTest()
 
 
