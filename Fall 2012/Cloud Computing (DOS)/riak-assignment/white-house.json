@@ -1,0 +1,39 @@
+{
+    "inputs":"whitehouse",
+    "inputs":"whitehouse",
+    "query":[
+        {
+          "map":{"language":"javascript",
+          "source":"function(value, keyData, arg)
+              {
+              var data = Riak.mapValuesJson(value)[0];
+
+              var location = data.MEETING_LOC;
+              var room = data.MEETING_ROOM;
+              var place = location+room;
+              if(place)
+                return [{place: 1}];
+              else
+                return [];
+              }",
+        
+          "keep":true
+		  }
+		},
+		
+		{
+          "reduce":{"language":"javascript",
+          "source":"function(values, arg)
+            {
+                return [ values.reduce(function(acc, item){
+                  return [{"hi":"prosun"}]
+                }
+                ];
+            }",
+          "keep":true
+			}
+		}
+]
+}
+
+

@@ -1,0 +1,15 @@
+#!/usr/bin/env escript
+%% -*- erlang -*-
+main([Filename]) ->
+    {ok, Data} = file:read_file(Filename),
+    Lines = tl(re:split(Data, "\r?\n")),
+    lists:foreach(fun(L) -> LS = re:split(L, ",",[{return, list},trim]), format_and_insert(LS) end, Lines).
+
+format_and_insert(Line) ->
+		SelectedFields = [lists:nth(22,Line),lists:nth(23,Line)],
+    JSON = io_lib:format("{\"Location\":\"~s\",\"Room\":\"~s\"}", SelectedFields),
+    Command = io_lib:format("curl -X PUT http://10.245.122.64:8098/riak/wh/~s -d '~s' -H 'content-type: application/json'", [hd(SelectedFields),JSON]),
+    io:format("Inserting: ~s~n", [hd(SelectedFields)]),
+		io:fwrite(Command).
+    %os:cmd(Command).
+		

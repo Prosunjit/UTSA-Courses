@@ -1,0 +1,29 @@
+{
+    "inputs":"whitehouse",
+    "inputs":"whitehouse",
+    "query":[
+        {
+          "map":{"language":"javascript",
+          "source":"function(value, keyData, arg)
+              {
+             
+              }",
+        
+          "keep":true
+		  }
+		},
+		
+		{
+          "reduce":{"language":"javascript",
+          "source":"function(values, arg)
+            {
+                return [ values.reduce(function(acc, item){
+                  return [{"hi":"prosun"}]
+                }
+                ];
+            }",
+          "keep":true
+			}
+		}
+]
+}

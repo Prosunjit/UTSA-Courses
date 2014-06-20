@@ -1,0 +1,47 @@
+{
+    "inputs":"rubyhouse",
+    "query":[
+        {
+					"map":{"language":"javascript", 
+					"source":"function(value, keyData, arg)
+							{ 
+							var data = Riak.mapValuesJson(value)[0];
+							var location = data.MEETING_LOC;
+							var room = data.MEETING_ROOM;
+							var exactLocation = 'location ' + location + 'room  ' + room;
+							var obj = {};
+						  if ( exactLocation ){
+								obj[exactLocation] = 1;
+								return [obj]; 
+							}
+							else 
+								return [{}];
+							}"
+				}
+			},
+    	{	
+					"reduce":{"language":"javascript", 
+					"source":"function(values, arg)
+						{
+								return [ values.reduce(function(acc, item)
+										{ 
+
+												for(var place in item)
+                        {
+													if (acc[place]) { 
+																	acc[place] += item[place];
+													}	
+													else acc[place] = item[place];
+												}
+												return acc;
+
+										}
+									
+										)
+								];
+						}", 
+					"keep":true
+			}
+		}
+]
+}
