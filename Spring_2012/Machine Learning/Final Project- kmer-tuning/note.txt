@@ -1,0 +1,4 @@
+TF_5 Accuracy : /script-test.sh TF_5_data_1.txt TF_5_data_2.txt 100 practice ::Accuracy -  training: 95.775% :: testing : 88.3%
+TF_6 :  ./script-test.sh TF_6_data_1.txt TF_6_data_2.txt 200 practice Testing Accuracy : 94.975%
+TF_7: ./script-test.sh TF_7_data_1.txt TF_7_data_2.txt 200 practice : testing Accuracy: 96.925%
+TF_8: 96.925% testing (200)

@@ -1,0 +1,520 @@
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  200 4 4 0 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 200 4 4 0 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  200 4 4 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 200 4 4 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  300 4 4 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 300 4 4 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  400 4 4 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 400 4 4 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  500 4 4 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 500 4 4 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  200 5 5 0 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 200 5 5 0 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  300 5 5 0 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 300 5 5 0 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  400 5 5 0 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 400 5 5 0 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  500 5 5 0 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 500 5 5 0 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  200 5 5 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 200 5 5 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  300 5 5 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 300 5 5 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  400 5 5 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 400 5 5 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  500 5 5 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 500 5 5 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  600 5 5 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 600 5 5 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  700 5 5 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 700 5 5 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  800 5 5 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 800 5 5 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  900 5 5 1 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 900 5 5 1 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  200 5 5 2 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 200 5 5 2 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  300 5 5 2 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 300 5 5 2 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  400 5 5 2 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 400 5 5 2 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  500 5 5 2 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 500 5 5 2 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  600 5 5 2 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 600 5 5 2 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  700 5 5 2 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 700 5 5 2 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  800 5 5 2 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 800 5 5 2 >>TF_11.out
+echo "================= working with ./script-test.sh  TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out  tune  900 5 5 2 >>TF_11.out =================>>TF_11.out"
+./script-test.sh TF_11_data_1.txt TF_11_data_2_forPred.txt TF_11_data_1.txt.out tune 900 5 5 2 >>TF_11.out
+
+
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  200 4 4 0 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 200 4 4 0 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  200 4 4 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 200 4 4 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  300 4 4 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 300 4 4 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  400 4 4 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 400 4 4 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  500 4 4 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 500 4 4 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  200 5 5 0 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 200 5 5 0 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  300 5 5 0 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 300 5 5 0 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  400 5 5 0 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 400 5 5 0 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  500 5 5 0 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 500 5 5 0 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  200 5 5 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 200 5 5 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  300 5 5 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 300 5 5 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  400 5 5 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 400 5 5 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  500 5 5 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 500 5 5 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  600 5 5 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 600 5 5 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  700 5 5 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 700 5 5 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  800 5 5 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 800 5 5 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  900 5 5 1 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 900 5 5 1 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  200 5 5 2 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 200 5 5 2 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  300 5 5 2 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 300 5 5 2 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  400 5 5 2 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 400 5 5 2 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  500 5 5 2 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 500 5 5 2 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  600 5 5 2 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 600 5 5 2 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  700 5 5 2 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 700 5 5 2 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  800 5 5 2 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 800 5 5 2 >>TF_12.out
+echo "================= working with ./script-test.sh  TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out  tune  900 5 5 2 >>TF_12.out =================>>TF_12.out"
+./script-test.sh TF_12_data_1.txt TF_12_data_2_forPred.txt TF_12_data_1.txt.out tune 900 5 5 2 >>TF_12.out
+
+
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  200 4 4 0 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 200 4 4 0 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  200 4 4 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 200 4 4 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  300 4 4 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 300 4 4 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  400 4 4 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 400 4 4 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  500 4 4 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 500 4 4 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  200 5 5 0 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 200 5 5 0 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  300 5 5 0 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 300 5 5 0 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  400 5 5 0 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 400 5 5 0 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  500 5 5 0 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 500 5 5 0 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  200 5 5 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 200 5 5 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  300 5 5 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 300 5 5 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  400 5 5 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 400 5 5 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  500 5 5 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 500 5 5 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  600 5 5 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 600 5 5 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  700 5 5 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 700 5 5 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  800 5 5 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 800 5 5 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  900 5 5 1 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 900 5 5 1 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  200 5 5 2 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 200 5 5 2 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  300 5 5 2 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 300 5 5 2 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  400 5 5 2 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 400 5 5 2 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  500 5 5 2 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 500 5 5 2 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  600 5 5 2 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 600 5 5 2 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  700 5 5 2 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 700 5 5 2 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  800 5 5 2 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 800 5 5 2 >>TF_13.out
+echo "================= working with ./script-test.sh  TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out  tune  900 5 5 2 >>TF_13.out =================>>TF_13.out"
+./script-test.sh TF_13_data_1.txt TF_13_data_2_forPred.txt TF_13_data_1.txt.out tune 900 5 5 2 >>TF_13.out
+
+
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  200 4 4 0 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 200 4 4 0 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  200 4 4 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 200 4 4 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  300 4 4 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 300 4 4 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  400 4 4 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 400 4 4 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  500 4 4 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 500 4 4 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  200 5 5 0 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 200 5 5 0 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  300 5 5 0 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 300 5 5 0 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  400 5 5 0 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 400 5 5 0 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  500 5 5 0 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 500 5 5 0 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  200 5 5 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 200 5 5 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  300 5 5 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 300 5 5 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  400 5 5 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 400 5 5 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  500 5 5 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 500 5 5 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  600 5 5 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 600 5 5 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  700 5 5 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 700 5 5 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  800 5 5 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 800 5 5 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  900 5 5 1 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 900 5 5 1 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  200 5 5 2 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 200 5 5 2 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  300 5 5 2 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 300 5 5 2 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  400 5 5 2 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 400 5 5 2 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  500 5 5 2 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 500 5 5 2 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  600 5 5 2 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 600 5 5 2 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  700 5 5 2 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 700 5 5 2 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  800 5 5 2 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 800 5 5 2 >>TF_14.out
+echo "================= working with ./script-test.sh  TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out  tune  900 5 5 2 >>TF_14.out =================>>TF_14.out"
+./script-test.sh TF_14_data_1.txt TF_14_data_2_forPred.txt TF_14_data_1.txt.out tune 900 5 5 2 >>TF_14.out
+
+
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  200 4 4 0 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 200 4 4 0 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  200 4 4 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 200 4 4 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  300 4 4 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 300 4 4 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  400 4 4 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 400 4 4 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  500 4 4 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 500 4 4 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  200 5 5 0 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 200 5 5 0 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  300 5 5 0 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 300 5 5 0 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  400 5 5 0 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 400 5 5 0 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  500 5 5 0 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 500 5 5 0 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  200 5 5 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 200 5 5 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  300 5 5 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 300 5 5 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  400 5 5 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 400 5 5 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  500 5 5 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 500 5 5 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  600 5 5 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 600 5 5 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  700 5 5 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 700 5 5 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  800 5 5 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 800 5 5 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  900 5 5 1 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 900 5 5 1 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  200 5 5 2 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 200 5 5 2 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  300 5 5 2 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 300 5 5 2 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  400 5 5 2 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 400 5 5 2 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  500 5 5 2 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 500 5 5 2 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  600 5 5 2 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 600 5 5 2 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  700 5 5 2 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 700 5 5 2 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  800 5 5 2 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 800 5 5 2 >>TF_15.out
+echo "================= working with ./script-test.sh  TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out  tune  900 5 5 2 >>TF_15.out =================>>TF_15.out"
+./script-test.sh TF_15_data_1.txt TF_15_data_2_forPred.txt TF_15_data_1.txt.out tune 900 5 5 2 >>TF_15.out
+
+
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  200 4 4 0 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 200 4 4 0 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  200 4 4 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 200 4 4 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  300 4 4 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 300 4 4 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  400 4 4 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 400 4 4 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  500 4 4 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 500 4 4 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  200 5 5 0 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 200 5 5 0 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  300 5 5 0 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 300 5 5 0 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  400 5 5 0 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 400 5 5 0 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  500 5 5 0 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 500 5 5 0 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  200 5 5 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 200 5 5 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  300 5 5 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 300 5 5 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  400 5 5 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 400 5 5 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  500 5 5 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 500 5 5 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  600 5 5 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 600 5 5 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  700 5 5 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 700 5 5 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  800 5 5 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 800 5 5 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  900 5 5 1 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 900 5 5 1 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  200 5 5 2 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 200 5 5 2 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  300 5 5 2 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 300 5 5 2 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  400 5 5 2 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 400 5 5 2 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  500 5 5 2 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 500 5 5 2 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  600 5 5 2 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 600 5 5 2 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  700 5 5 2 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 700 5 5 2 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  800 5 5 2 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 800 5 5 2 >>TF_16.out
+echo "================= working with ./script-test.sh  TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out  tune  900 5 5 2 >>TF_16.out =================>>TF_16.out"
+./script-test.sh TF_16_data_2.txt TF_16_data_1_forPred.txt TF_16_data_2.txt.out tune 900 5 5 2 >>TF_16.out
+
+
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  200 4 4 0 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 200 4 4 0 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  200 4 4 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 200 4 4 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  300 4 4 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 300 4 4 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  400 4 4 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 400 4 4 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  500 4 4 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 500 4 4 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  200 5 5 0 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 200 5 5 0 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  300 5 5 0 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 300 5 5 0 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  400 5 5 0 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 400 5 5 0 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  500 5 5 0 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 500 5 5 0 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  200 5 5 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 200 5 5 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  300 5 5 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 300 5 5 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  400 5 5 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 400 5 5 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  500 5 5 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 500 5 5 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  600 5 5 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 600 5 5 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  700 5 5 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 700 5 5 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  800 5 5 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 800 5 5 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  900 5 5 1 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 900 5 5 1 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  200 5 5 2 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 200 5 5 2 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  300 5 5 2 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 300 5 5 2 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  400 5 5 2 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 400 5 5 2 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  500 5 5 2 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 500 5 5 2 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  600 5 5 2 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 600 5 5 2 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  700 5 5 2 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 700 5 5 2 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  800 5 5 2 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 800 5 5 2 >>TF_17.out
+echo "================= working with ./script-test.sh  TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out  tune  900 5 5 2 >>TF_17.out =================>>TF_17.out"
+./script-test.sh TF_17_data_2.txt TF_17_data_1_forPred.txt TF_17_data_2.txt.out tune 900 5 5 2 >>TF_17.out
+
+
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  200 4 4 0 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 200 4 4 0 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  200 4 4 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 200 4 4 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  300 4 4 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 300 4 4 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  400 4 4 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 400 4 4 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  500 4 4 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 500 4 4 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  200 5 5 0 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 200 5 5 0 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  300 5 5 0 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 300 5 5 0 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  400 5 5 0 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 400 5 5 0 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  500 5 5 0 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 500 5 5 0 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  200 5 5 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 200 5 5 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  300 5 5 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 300 5 5 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  400 5 5 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 400 5 5 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  500 5 5 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 500 5 5 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  600 5 5 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 600 5 5 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  700 5 5 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 700 5 5 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  800 5 5 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 800 5 5 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  900 5 5 1 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 900 5 5 1 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  200 5 5 2 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 200 5 5 2 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  300 5 5 2 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 300 5 5 2 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  400 5 5 2 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 400 5 5 2 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  500 5 5 2 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 500 5 5 2 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  600 5 5 2 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 600 5 5 2 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  700 5 5 2 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 700 5 5 2 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  800 5 5 2 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 800 5 5 2 >>TF_18.out
+echo "================= working with ./script-test.sh  TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out  tune  900 5 5 2 >>TF_18.out =================>>TF_18.out"
+./script-test.sh TF_18_data_2.txt TF_18_data_1_forPred.txt TF_18_data_2.txt.out tune 900 5 5 2 >>TF_18.out
+
+
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  200 4 4 0 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 200 4 4 0 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  200 4 4 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 200 4 4 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  300 4 4 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 300 4 4 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  400 4 4 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 400 4 4 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  500 4 4 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 500 4 4 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  200 5 5 0 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 200 5 5 0 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  300 5 5 0 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 300 5 5 0 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  400 5 5 0 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 400 5 5 0 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  500 5 5 0 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 500 5 5 0 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  200 5 5 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 200 5 5 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  300 5 5 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 300 5 5 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  400 5 5 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 400 5 5 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  500 5 5 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 500 5 5 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  600 5 5 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 600 5 5 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  700 5 5 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 700 5 5 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  800 5 5 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 800 5 5 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  900 5 5 1 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 900 5 5 1 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  200 5 5 2 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 200 5 5 2 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  300 5 5 2 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 300 5 5 2 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  400 5 5 2 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 400 5 5 2 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  500 5 5 2 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 500 5 5 2 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  600 5 5 2 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 600 5 5 2 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  700 5 5 2 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 700 5 5 2 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  800 5 5 2 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 800 5 5 2 >>TF_19.out
+echo "================= working with ./script-test.sh  TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out  tune  900 5 5 2 >>TF_19.out =================>>TF_19.out"
+./script-test.sh TF_19_data_2.txt TF_19_data_1_forPred.txt TF_19_data_2.txt.out tune 900 5 5 2 >>TF_19.out
+
+
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  200 4 4 0 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 200 4 4 0 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  200 4 4 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 200 4 4 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  300 4 4 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 300 4 4 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  400 4 4 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 400 4 4 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  500 4 4 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 500 4 4 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  200 5 5 0 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 200 5 5 0 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  300 5 5 0 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 300 5 5 0 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  400 5 5 0 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 400 5 5 0 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  500 5 5 0 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 500 5 5 0 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  200 5 5 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 200 5 5 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  300 5 5 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 300 5 5 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  400 5 5 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 400 5 5 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  500 5 5 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 500 5 5 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  600 5 5 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 600 5 5 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  700 5 5 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 700 5 5 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  800 5 5 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 800 5 5 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  900 5 5 1 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 900 5 5 1 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  200 5 5 2 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 200 5 5 2 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  300 5 5 2 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 300 5 5 2 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  400 5 5 2 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 400 5 5 2 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  500 5 5 2 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 500 5 5 2 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  600 5 5 2 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 600 5 5 2 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  700 5 5 2 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 700 5 5 2 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  800 5 5 2 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 800 5 5 2 >>TF_20.out
+echo "================= working with ./script-test.sh  TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out  tune  900 5 5 2 >>TF_20.out =================>>TF_20.out"
+./script-test.sh TF_20_data_2.txt TF_20_data_1_forPred.txt TF_20_data_2.txt.out tune 900 5 5 2 >>TF_20.out
+
+
