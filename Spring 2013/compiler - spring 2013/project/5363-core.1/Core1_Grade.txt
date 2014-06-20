@@ -1,0 +1,20 @@
+Progress (correctly outputs parse tree):  10 		
+Progress (correctly outputs AST/Types):    4
+- Many nodes that should be colored are not.
+- Terminated with exception instead of specifying a type or syntax error
+  on one test case:
+    Exception in thread "main" java.lang.NullPointerException
+	  at edu.utsa.tl13.Expression.typeChecking(Expression.java:42)
+- Terminated with exception on a correct test cases with nested while and if
+  statements:
+    Exception in thread "main" java.lang.NullPointerException
+	  at edu.utsa.tl13.Parser.parse(Parser.java:41)
+- The leaf nodes that cause type errors are often not colored red.
+- Did not throw type error when condition expression of IF statement was of type
+  INT (should only allow type bool).
+- Reported no type error when INT literal was out of range, but did color it red
+  on AST.
+Build/Packaging:                           5
+Source Code Readability:                   5 	
+
+Core 1 Total:                             24

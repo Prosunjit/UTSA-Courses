@@ -1,0 +1,9 @@
+Abstract Syntax Tree w/Types & Type Checking: 10
+ILOC in CFG nodes:                            20
+Spim Assembly Code:                          126
+- Incorrect output on registerstress2.tl13 when input is 25
+  - Outputs both 0 and 1.
+Build/Packaging at Final Submission:           5
+Source Code Readability:                       5 	
+
+Core 3 Total:                                166

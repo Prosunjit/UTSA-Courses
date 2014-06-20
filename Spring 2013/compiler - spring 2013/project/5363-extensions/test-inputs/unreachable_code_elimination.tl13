@@ -1,0 +1,19 @@
+%- this program finds first occourence of exit and
+ halts executing the program  -%
+ 
+program
+   var SMALLER as int ;
+   var BIGGER as int ;
+   var TEMP as int ;
+begin
+   TEMP := 0;
+   exit;
+   
+   %- the program exits here 
+   It will not generate mips code for the following lines -%
+   
+   TEMP := 2;
+   if ( TEMP > 0 ) then
+		writeInt 1 ;
+	end;
+end
