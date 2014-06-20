@@ -1,0 +1,36 @@
+
+lib.utsa.edu
+   Databases
+      ProQuest Dissertations & Theses Full Text -
+
+Advanced Search
+title: routing,   routing wireless sensor networks
+keywords
+last 5 years                                    options:
+Doctoral					university, dept, etc.
+dissertation
+English....
+
+Full-text...
+
+
+
+
+samples:
+
+Congestion-Aware Traffic Routing for Large-Scale Mobile Agent Systems
+falseLim, Sejoon. Massachusetts Institute of Technology, ProQuest, UMI Dissertations Publishing, 2012.
+
+
+Vehicle scheduling and routing for data transport in wireless sensor networks
+
+Random Graphs and Hypergraphs for Complex Networks
+
+Information retrieval with query hypergraphs
+
+Labeling hypergraph-structured data using Markov network
+
+Gain graphs, group-oriented hypergraphs, and matrices
+
+Diss.Reff, Nathan H.. State University of New York at Binghamton, ProQuest, UMI Dissertations Publishing, 2012. 3522874.
+
