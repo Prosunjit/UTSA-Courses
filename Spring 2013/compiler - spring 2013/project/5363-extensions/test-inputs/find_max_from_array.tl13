@@ -1,0 +1,32 @@
+%- Read 5  number into an int array and 
+find the Max value from the array and print it -%
+program 
+  
+  var Z[10] as int;
+  var Y as int;
+  var X as int;
+  var MAX as int;
+ 
+begin 
+	Y := 0;
+	
+	%- place 5 int value into an int array -%
+	Z[0] := 1110;
+	Z[1] := 10;
+	Z[2] := 20;
+	Z[3] := 110;
+	Z[4] := 0;
+
+	%- find the maximum value from array -%
+	Y := 0;
+	MAX := 0;
+	while (Y <5) do
+		if (Z[Y] > MAX) then
+			MAX := Z[Y];			
+		end;
+		Y := Y + 1;
+	end;
+	
+	writeInt MAX;
+	
+	end

@@ -1,0 +1,28 @@
+%- Read 5 integer number into an int array and 
+get the total from the array and print it -%
+
+program 
+  
+  var Z[10] as int;
+  var Y as int;
+  var X as int;
+ 
+begin 
+	Y := 0;
+	
+	%- read 5 int into an int array -%
+	while ( Y < 5) do
+		Z[Y] := readInt;
+		Y := Y + 1;
+	end;
+	
+	%- print values from Int array -%
+	Y := 0;
+	while (Y <5) do
+		X := X + Z[Y];
+		Y := Y + 1;
+	end;
+	
+	writeInt X;
+	
+	end

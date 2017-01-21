@@ -1,0 +1,130 @@
+== ./script-test.sh TF_1_data_1.txt TF_1_data_2.txt 200 tune out_4_4_0 4 4 1 ==
+Correctly Classified Instances        3761               94.025  %
+Incorrectly Classified Instances       239                5.975  %
+Kappa statistic                          0.8389
+Mean absolute error                      0.0818
+Root mean squared error                  0.2116
+Relative absolute error                 21.8223 %
+Root relative squared error             48.8604 %
+Coverage of cases (0.95 level)          98.925  %
+Mean rel. region size (0.95 level)      60.7125 %
+Total Number of Instances             4000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  864  136 |    a = p
+  103 2897 |    b = n
+
+
+./script-test.sh TF_1_data_1.txt TF_1_data_2.txt 200 tune out_4_4_0 4 4 0 
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        3761               94.025  %
+Incorrectly Classified Instances       239                5.975  %
+Kappa statistic                          0.8389
+Mean absolute error                      0.0818
+Root mean squared error                  0.2116
+Relative absolute error                 21.8223 %
+Root relative squared error             48.8604 %
+Coverage of cases (0.95 level)          98.925  %
+Mean rel. region size (0.95 level)      60.7125 %
+Total Number of Instances             4000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  864  136 |    a = p
+  103 2897 |    b = n
+
+./script-test.sh TF_1_data_1.txt TF_1_data_2.txt 200 tune out_4_4_0 5 5 0 
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        3552               88.8    %
+Incorrectly Classified Instances       448               11.2    %
+Kappa statistic                          0.7029
+Mean absolute error                      0.1124
+Root mean squared error                  0.3317
+Relative absolute error                 29.9582 %
+Root relative squared error             76.6074 %
+Coverage of cases (0.95 level)          89.375  %
+Mean rel. region size (0.95 level)      50.7    %
+Total Number of Instances             4000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  784  216 |    a = p
+  232 2768 |    b = n
+
+./script-test.sh TF_1_data_1.txt TF_1_data_2.txt 200 tune out_4_4_0 5 5 1 
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        3552               88.8    %
+Incorrectly Classified Instances       448               11.2    %
+Kappa statistic                          0.7029
+Mean absolute error                      0.1124
+Root mean squared error                  0.3317
+Relative absolute error                 29.9582 %
+Root relative squared error             76.6074 %
+Coverage of cases (0.95 level)          89.375  %
+Mean rel. region size (0.95 level)      50.7    %
+Total Number of Instances             4000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  784  216 |    a = p
+  232 2768 |    b = n
+
+./script-test.sh TF_1_data_1.txt TF_1_data_2.txt 500 tune out_4_4_0 5 5 1 
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        3756               93.9    %
+Incorrectly Classified Instances       244                6.1    %
+Kappa statistic                          0.8352
+Mean absolute error                      0.0792
+Root mean squared error                  0.2113
+Relative absolute error                 21.1034 %
+Root relative squared error             48.7997 %
+Coverage of cases (0.95 level)          98.8    %
+Mean rel. region size (0.95 level)      60.1375 %
+Total Number of Instances             4000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  859  141 |    a = p
+  103 2897 |    b = n
+
+./script-test.sh TF_1_data_1.txt TF_1_data_2.txt 700 tune out_4_4_0 5 5 1 
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        3615               90.375  %
+Incorrectly Classified Instances       385                9.625  %
+Kappa statistic                          0.7358
+Mean absolute error                      0.1319
+Root mean squared error                  0.2593
+Relative absolute error                 35.1658 %
+Root relative squared error             59.8751 %
+Coverage of cases (0.95 level)          99.35   %
+Mean rel. region size (0.95 level)      69.7625 %
+Total Number of Instances             4000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  765  235 |    a = p
+  150 2850 |    b = n
+
+./script-test.sh TF_1_data_1.txt TF_1_data_2.txt 800 tune out_4_4_0 5 5 1

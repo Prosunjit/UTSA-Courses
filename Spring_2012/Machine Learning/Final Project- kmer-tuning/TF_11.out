@@ -1,0 +1,52 @@
+4
+4
+*************8working with  TF_11_data_1.txt TF_11_data_2_forPred.txt 200  TF_11_data_1.txt.out  4  4 0 **************
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        3820               95.5    %
+Incorrectly Classified Instances       180                4.5    %
+Kappa statistic                          0.8791
+Mean absolute error                      0.0623
+Root mean squared error                  0.1871
+Relative absolute error                 16.6188 %
+Root relative squared error             43.2158 %
+Coverage of cases (0.95 level)          99.15   %
+Mean rel. region size (0.95 level)      57.95   %
+Total Number of Instances             4000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  899  101 |    a = p
+   79 2921 |    b = n
+
+4
+4
+*************8working with  TF_11_data_1.txt TF_11_data_2_forPred.txt 200  TF_11_data_1.txt.out  4  4 1 **************
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        3734               93.35   %
+Incorrectly Classified Instances       266                6.65   %
+Kappa statistic                          0.8233
+Mean absolute error                      0.0671
+Root mean squared error                  0.2566
+Relative absolute error                 17.8985 %
+Root relative squared error             59.2589 %
+Coverage of cases (0.95 level)          93.65   %
+Mean rel. region size (0.95 level)      50.4    %
+Total Number of Instances             4000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  872  128 |    a = p
+  138 2862 |    b = n
+

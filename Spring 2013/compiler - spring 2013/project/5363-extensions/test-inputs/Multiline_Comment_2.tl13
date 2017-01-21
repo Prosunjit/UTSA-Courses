@@ -1,0 +1,31 @@
+
+%-    
+MULTILINE COMMENT STARTS WITH "%-" AND ENDS WITH "-%"
+-%
+	
+%- The following program is in multiline comment section 
+program 
+  var N as int ; 
+  var SQRT as int ; 
+begin 
+  N:=readInt; 
+  SQRT:=0; 
+
+  while SQRT*SQRT<=N do % single line comment
+    SQRT:=SQRT+1; 
+
+  end; 
+
+  SQRT:=SQRT-1 ; 
+
+  writeInt SQRT ; 
+
+end
+
+-%
+% This program is just a bare skeleton.
+program
+
+begin
+
+end

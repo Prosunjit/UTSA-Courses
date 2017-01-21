@@ -1,0 +1,33 @@
+%- Read 10  number into two int array and 
+find the  sum of the two array values -%
+program 
+  
+  var Z[10] as int;
+  var ARRAY[100] as int;
+  var Y as int;
+  var X as int;
+  var SUM as int;
+ 
+begin 
+	Y := 0;
+	SUM := 0;	
+	%- read 5 int into an int array -%
+	while ( Y < 5) do
+		Z[Y] := readInt;
+		SUM := SUM+Z[Y];
+		Y := Y + 1;
+		
+	end;
+	writeInt SUM;
+	Y := 0;
+	while ( Y < 5) do
+		ARRAY[Y] := readInt;
+		SUM := SUM+ARRAY[Y];
+		Y := Y + 1;
+		
+
+	end;
+	
+	writeInt SUM;
+	
+	end

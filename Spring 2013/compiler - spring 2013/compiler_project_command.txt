@@ -1,0 +1,3 @@
+bzr+ssh://eft434@sloecode.cs.utsa.edu/~eft434/5363-core.3 ./core.3
+
+bzr co bzr+ssh://eft434@sloecode.cs.utsa.edu/~eft434/5363-extensions ./extension.test

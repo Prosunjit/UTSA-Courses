@@ -1,0 +1,8 @@
+Progress (correctly outputs parse tree):  10 		
+Progress (correctly outputs AST/Types):    9
+- Did not report integer out of bounds as a type error.
+Progress (correctly outputs ILOC/CFG):    10
+Build/Packaging:                           5
+Source Code Readability:                   5 	
+
+Core 2 Total:                             39

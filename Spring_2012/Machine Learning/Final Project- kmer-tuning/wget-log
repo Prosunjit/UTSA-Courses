@@ -1,0 +1,13 @@
+--2012-05-05 17:53:34--  http://cs.utsa.edu/~jruan/teaching/CS6243_spring_2012/FinalProject/challenge/TF_11_data_1.txt
+Resolving cs.utsa.edu... 129.115.28.4
+Connecting to cs.utsa.edu|129.115.28.4|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 152000 (148K) [text/plain]
+Saving to: `TF_11_data_1.txt.2'
+
+     0K .......... .......... .......... .......... .......... 33%  650M 0s
+    50K .......... .......... .......... .......... .......... 67% 11.8M 0s
+   100K .......... .......... .......... .......... ........  100%  230K=0.2s
+
+2012-05-05 17:53:34 (692 KB/s) - `TF_11_data_1.txt.2' saved [152000/152000]
+

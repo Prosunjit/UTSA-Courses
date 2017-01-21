@@ -1,0 +1,31 @@
+
+
+program 
+	var N as int ; 
+	var I as int ;
+	var ARRAY[10] as int; % int array of size 10
+begin 
+	ARRAY[0] := 0;
+	ARRAY[1] := 1;
+	ARRAY[2] := 2;
+  	ARRAY[3] := 3;
+	ARRAY[4] := 4;
+	ARRAY[5] := 5;
+	ARRAY[6] := 6;
+	ARRAY[7] := 7;
+	ARRAY[8] := 8;
+	ARRAY[9] := 9;
+	
+	writeInt ARRAY[0] + ( ARRAY[1] + (ARRAY[2] + (ARRAY[3] + (ARRAY[4] * ARRAY[5]))));
+
+	ARRAY[0] := ARRAY[0] + ARRAY[0] ;
+	ARRAY[1] := ARRAY[1] - ARRAY[1] ;
+	ARRAY[2] := ARRAY[2] * ARRAY[2] ;
+  	ARRAY[3] := ARRAY[3] div ARRAY[3] ;
+	ARRAY[4] := ARRAY[4] mod ARRAY[4]; 
+
+	if ( ARRAY[0] >= ARRAY[1]) then 
+		ARRAY[0] := ARRAY[1];
+		writeInt ARRAY[0];
+	end;
+end 

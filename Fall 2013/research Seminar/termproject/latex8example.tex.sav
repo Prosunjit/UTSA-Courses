@@ -1,0 +1,186 @@
+\documentclass[11pt,onecolumn]{article}
+\usepackage{latex8}
+\bibliographystyle{latex8}
+\usepackage{times}
+
+
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{CloudProtect: A Middleware for Managing Privacy in Cloud Applications}
+
+
+% author names and affiliations
+% use a multiple column layout for up to two different
+% affiliations
+
+\author{
+ Prosunjit Biswas\\
+ \textit{UTSA}
+\and
+ Joy Rahman\\
+ \textit{UTSA}
+}
+
+
+% make the title area
+\maketitle
+
+
+\begin{abstract}
+Cloud computing applications have increased significantly in recent years due to improved
+accessibility, availability and services at reduced costs. Examples of such
+services include Google Calendar, Microsoft HealthVault, and Yahoo Briefcase. In
+such services, the service provider provides the storage as well as the web application
+that utilizes the storage. Despite their benefits however, these services present
+significant security and privacy risks to their users. Users data is exposed to both
+outsider and insider attacks, and users dont have any control over the security and
+privacy management of the data. We propose CloudProtect, a middleware that sits
+between the client and service provider applications empowering users with the ability
+to manage their security and privacy needs for these cloud applications. The middleware
+enables the tradeoff analysis between data privacy, usability, and efficiency.
+We implemented CloudProtect and adapted it to work with Google Calendar, Google
+Docs, and Gmail. Our experimental results highlight the feasibility of the approach.
+\end{abstract}
+
+
+
+\Section{Introduction}
+With the advances of the web and cloud computing technologies, we are undergoing a
+paradigm shift in how we manage our data and build applications. A variety of enduser
+applications that let users manage their emails, documents, healthcare data etc.,
+are available today over the cloud. The application-as-a-service model offers numerous
+advantages to end-users – e.g., 24/7 availability, accessibility from anywhere/anytime,
+lower cost etc. Examples of such services include calendar applications [1, 2, 3],
+document management applications [4, 3, 5, 6], database as a service applications
+[7, 8], personal health record services [9, 10] to name a few. These applications are
+available to users either free of charge or on pay-peruse basis. Instead of acquiring and
+installing the applications on their machines, users can access them from anywhere
+at any time simply through a browser based interface. As a result, large volumes of
+personal and organizational data is migrating to the cloud at an amazing pace.
+
+\newline
+
+The fundamental issue is that once the data is stored at the service provider, users
+do not have any control over how it is used or who accesses it on the service provider
+side. As a consequence, this lack of mechanisms for enabling end-users to control
+security of their data at the service-provider is one of the primary limitations to the
+adoption of cloud applications. Existing practice requires users to implicitly trust the
+service providers and their security policies about how data is stored and accessed.
+Many high profile breaches over the years have established that such implicit trust
+is often misplaced [11]. Reasons being that, service providers are often targets of
+persistent hacker attacks. Furthermore, the security mechanisms followed by them
+remain vulnerable to insider attacks. Many surveys [12] have revealed that concerns
+of security and privacy are the primary barriers to adoption of cloud computing by
+governmental, healthcare, and financial institutions. Even if the service providers
+themselves were fully trusted, since the cloud applications authenticate end-users
+through login credentials, the data stored within the applications are vulnerable to
+miscreants who steal such credentials and masquerade as data owners.
+
+\newline
+
+In this thesis, we propose an extendible middleware called CloudProtect, the goal
+of which is to enable user-driven application level data to be stored on the service
+provider side in encrypted form. CloudProtect empowers the end users to add an extra
+layer of protection to their own data. CloudProtect transforms users’ request to operate
+on the encrypted domain if it is possible – e.g., as in the case for search, creation of new objects, etc. However, if some operation or function execution requires access
+to the data in plaintext, CloudProtect implements a protocol to expose sensitive data
+for a limited duration so that the operation can be carried out on the server. Such
+a protocol, when invoked, can be expensive since it requires an additional round-trip
+with the service provider to request the encrypted data, decrypt it, and store the
+data back in the clear-text form. To limit such overheads, CloudProtect maintains a
+policy that dictates which data is stored in plaintext and which is stored encrypted at
+the server. Such a policy, learnt from user interaction with the application, supports
+a tradeoff between costs/overhead incurred and the amount of (duration for which)
+sensitive data is exposed in plain text to the server. The policies learnt by Cloud-
+Protect are based on user-specified parameters that capture the degree of tolerance a
+user has to increased overheads as well as to potential information breach and are,
+furthermore, subject to human-override. Additionally, CloudProtect facilitates key
+management and secure sharing of encrypted data.
+
+
+
+ We propose CloudProtect, a middleware framework that mediates between users
+and the cloud applications providers to enable privacy management services.
+The framework includes a data model and function model for describing the
+cloud applications and a policy model for expressing confidentiality policies.
+
+
+ CloudProtect enables the automatic tradeoff of privacy, usability, and efficiency.
+Privacy is measured in terms of the number privacy violations, usability by
+the number of interruptions, and efficiency through the cost associated with
+the executions of operations on transformed objects. Given the set of objects
+that have been stored so far in the database, the tradeoff is achieved by generalizing/
+relaxing the policies so that the number of interruptions and/or costs
+associated with the operations are below some thresholds.
+
+
+
+
+
+\Section{Formatting Your Paper}
+All printed material, including text, illustrations, and charts, must be kept within the 
+ameters of the 8 15/16-inch (53.75 picas) column length and 5 15/16-inch (36 picas) column width. Please do not write or print outside of the column parameters. Margins are 1 5/16 of an inch on the sides (8 picas), 7/8 of an inch on the top (5.5 picas), and 1 3/16 of an inch on the bottom (7 picas).
+
+
+\Section{Main Title}
+The main title (on the first page) should begin 1 3/16 inches (7 picas) from the top edge of the page, centered, and in Times New Roman 14-point, boldface type. Capitalize the first letter of nouns, pronouns, verbs, adjectives, and adverbs; do not capitalize articles, coordinate conjunctions, or prepositions (unless the title begins with such a word). Please also capitalize all other headings, including first, second, and third-order headings (for example, ``Main Title'' — as in this document). Leave two blank lines after the title.
+
+\Section{Author Name(s) and Affiliation(s)}
+Author names and affiliations are to be centered beneath the title and printed in Times New Roman 12-point, non-boldface type. Multiple authors may be shown in a two or three-column format, with their affiliations below their respective names. Affiliations are centered below each author name, italicized, not bold. Include e-mail addresses if possible. Follow the author information by two blank lines before main text.
+
+\Section{Second and Following Pages}
+The second and following pages should begin 1.0 inch (2.54 cm) from the top edge. On all pages, the bottom margin should be 1-3/16 inches (2.86 cm) from the bottom edge of the page for 8.5 x 11-inch paper; for A4 paper, approximately 1-5/8 inches (4.13 cm) from the bottom edge of the page.
+
+\Section{Type-Style and Fonts}
+Wherever Times New Roman is specified, Times Roman, or Times may be used. If neither is available on your word processor, please use the font closest in appearance to Times New Roman that you have access to. Please avoid using bit-mapped fonts if possible. True-Type 1 fonts are preferred.
+
+\Section{Main Text}
+Type your main text in 11-point Times New Roman, single-spaced with 13-point interline spacing. Do not use double-spacing. All paragraphs should be indented 1 pica (approximately 1/6- or 0.17-inch or 0.422 cm). Be sure your text is fully justified—that is, flush left and flush right. Please do not place any additional blank lines between paragraphs.
+
+Figure and table captions should be 11-point Helvetica boldface (or a similar sans-serif font). Callouts should be 10-point Helvetica, non-boldface. Initially capitalize only the first word of each figure caption and table title. Figures and tables must be numbered separately. For example: “Figure 1. Database contexts”, “Table 1. Input data”. Figure captions are to be below the figures. Table titles are to be centered above the tables.
+
+\Section{First-Order Headings}
+For example, “1. Introduction”, should be Times New Roman 13-point boldface, initially capitalized, flush left, with one blank line before, and one blank line after. Use a period (“.”) after the heading number, not a colon.
+
+\SubSection{Second-Order Headings}
+As in this heading, they should be Times New Roman 11-point boldface, initially capitalized, flush left, with one blank line before, and one after.
+
+\medskip
+\noindent
+{\bf 8.8.1. Third-Order Headings:}
+Third-order headings, as in this paragraph, are discouraged. However, if you must use them, use 11-point Times New Roman, boldface, initially capitalized, flush left, preceded by one blank line, followed by a colon and your text on the same line.
+
+\Section{Footnotes}
+Use footnotes sparingly and place them at the bottom of the column on the page on which they are referenced. Use Times New Roman 9-point type, single-spaced with 10-point interlining spacing. To help your readers, avoid using too many footnotes and include necessary peripheral observations in the text (within parentheses, if you prefer, as in this sentence).
+
+\Section{References}
+List and number all bibliographical references in 9-point Times New Roman, single-spaced with 10-point interlining spacing, at the end of your paper. When referenced in the text, enclose the citation number in square brackets~\cite{IEEEhowto:kopka}. Where appropriate, include the name(s) of editors of referenced books.
+
+\Section{Copyright Forms and Reprint Orders}
+You must include your fully-completed, signed IEEE copyright release form when you submit your paper. We must have this form before your paper can be published in the proceedings. The copyright form is available either as a Word file, copyright.doc, or as a PDF version, copyright.pdf. You can also use the form sent with your author kit.
+
+Reprints may be ordered using the form provided as reprint.doc or reprint.pdf.
+
+
+
+% use section* for acknowledgement
+\section*{Acknowledgment}
+
+
+The authors would like to thank...
+more thanks here
+
+\begin{thebibliography}{1}
+\small
+\bibitem{IEEEhowto:kopka}
+H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+\end{thebibliography}
+
+\end{document}
+
+
